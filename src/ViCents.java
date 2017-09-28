@@ -30,24 +30,24 @@ public class ViCents extends Application{
 
                 Alert alert = new Alert(AlertType.INFORMATION);//creates the dialog pop up box
                 alert.setTitle("Change amount");
-                alert.setContentText("The change in quarters is " + qChange);
+                alert.setContentText("The change in quarters is "+ "\n" + qChange);
                 alert.showAndWait();
 
 
                 Alert hi = new Alert(AlertType.INFORMATION);
                 hi.setTitle("Change amount ");
-                hi.setContentText("The change in dimes is " + dChange);// adds the value to the string 
+                hi.setContentText("The change in dimes is "+ "\n" + dChange);// adds the value to the string
                 hi.showAndWait();
 
                 Alert how = new Alert(AlertType.INFORMATION);
                 how.setTitle("Change amount");
-                how.setContentText("The change in nickles is " + nChange);
+                how.setContentText("The change in nickles is " + "\n" + nChange);
                 how.showAndWait();
 
 
                 Alert are = new Alert(AlertType.INFORMATION);
                 are.setTitle("Change amount");
-                are.setContentText("The change in pennies is " + pChange);
+                are.setContentText("The change in pennies is " + "\n" + pChange);
                 are.showAndWait();
             }
 
